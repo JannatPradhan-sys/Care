@@ -5,6 +5,7 @@ import { CircularProgressbarWithChildren, buildStyles } from "react-circular-pro
 import "react-circular-progressbar/dist/styles.css";
 import RadialSeparators from "./Utility/RadialSeparators";
 import StarOutlineTwoToneIcon from '@material-ui/icons/StarOutlineTwoTone';
+import Quiz from './Quiz/Quiz';
 
 export default class ChildReadiness extends Component {
     state = {
@@ -108,6 +109,7 @@ export default class ChildReadiness extends Component {
                             </Card.Body>
                         </div>
                     </div>
+                    <Quiz />
 
             </div>
         )
