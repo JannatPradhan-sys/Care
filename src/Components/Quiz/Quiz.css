@@ -6,7 +6,7 @@
 }
 
 .options {
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     width:100%;
     background-color: rgb(156, 149, 149);
@@ -26,10 +26,11 @@ ul li {
 }
 @media only screen and (max-width: 812px) {
     .parent_div{
-        margin:auto
+        margin:auto;
+        height:50%
     }
     .options {
-        height: auto;
+        height: 100%;
         padding: 5px;
         
         

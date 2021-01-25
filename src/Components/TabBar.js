@@ -7,7 +7,7 @@ import Questionnare from './Questionnare';
 import QuestionnareHistory from './QuestionnareHistory';
 
 export default class TabBar extends Component{
-
+    
     render(){
         
         return(

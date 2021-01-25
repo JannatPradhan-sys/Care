@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Card, Form, Col, Row } from 'react-bootstrap';
+import { Card, Form} from 'react-bootstrap';
 import './TabBar.css';
 import { CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -11,9 +11,6 @@ export default class ChildReadiness extends Component {
     state = {
         count: 1
     }
-    constructor(props) {
-        super(props);
-        };
 
     increaseCounter = () => {
         if (this.state.count < 7) {
@@ -36,7 +33,7 @@ export default class ChildReadiness extends Component {
         return (
             <div>
                 <div className='Question_Parent'>
-                    <div className='Question_ChildDiv'>
+                    <div className='Progress_ParentDiv'>
                         <div label="Progressbar with separators" className='progress_bar'>
                             <CircularProgressbarWithChildren
                                 value={14 * this.state.count}

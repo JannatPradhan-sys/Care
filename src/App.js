@@ -5,7 +5,7 @@ import TabBar from './Components/TabBar';
 function App() {
   return (
     <div className="App">
-      <p style={{textAlign:'center'}}>Header NavBar</p><br/><br/>
+      <h6 style={{textAlign:'center'}}>Header NavBar</h6>
       <TabBar/>
 
     </div>

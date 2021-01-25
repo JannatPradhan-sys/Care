@@ -39,7 +39,7 @@ export const QuizData = [
     {
         id: 6,
         question: `What is the capital of UK?`,
-        options: [`Rimadi`, `London`, `Owerri`, `Tel Aviv`],
+        options: [`Jakarta`, `London`, `Owerri`, `Mumbai`],
         answer: `London`
     },
 

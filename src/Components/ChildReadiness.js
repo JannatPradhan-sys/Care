@@ -7,11 +7,12 @@ export default class ChildReadiness extends Component{
     state={
         questionStatus:0
     }
-
-    showQuestions=()=>{
+    
+     showQuestions=()=>{
         this.setState(()=>({
             questionStatus:1
         }))
+        this.props.hideReadinessButton()
     }
     render(){
  

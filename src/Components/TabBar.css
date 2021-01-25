@@ -1,6 +1,7 @@
 *{
     margin: 0; padding:0; box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;}
+    font-family: 'Mulish', sans-serif;
+}
     
 
 .Tab-Container{
@@ -52,17 +53,24 @@ Button{
 }
 .Question_Parent{
     width: 71vw;
+    height: 5vw;
     display: flex;
     justify-content: space-around;
+    flex-direction: column-reverse;
     flex-wrap: wrap; 
-    transition: all 0.2 linear;          
+    transition: all 0.2 linear;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+       
 			
 }
-.Question_ChildDiv{
+.Progress_ParentDiv{
     height: 105px;
     box-shadow: 0 0 20px #bac3c3;
     width: 150px;
     border-radius: 15px;
+    margin-left: auto;
+    
 }
 .progress_bar{
     width:105px;
@@ -73,13 +81,15 @@ Button{
     background-color: #45b6fe;
     color: white;
     border-radius: 20px;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
     height: 100px;
-    width:500px
+    width:500px;
+    margin: auto;
 
 }
 .question_Card{
     width: 40vw;
+    height: auto;
     margin: auto;
     border-radius: 15px;
     box-shadow: 0 0 7px #bac3c3
@@ -87,6 +97,9 @@ Button{
 
 }
 @media only screen and (max-width: 812px) {
+    *{
+        font-size: 14px;
+    }
     .Questionnare-Container Button{
         margin: 2px 0px 20px 0px;
     }
@@ -94,11 +107,12 @@ Button{
         width: 100vw;
         height: 28vh;
     }
-    .Question_ChildDiv{
+    .Progress_ParentDiv{
         height: 70px;
         box-shadow: 0 0 10px #bac3c3;
-        width: 130px;
+        width: 90vw;
         border-radius: 15px;
+        margin: auto;
     }
     .progress_bar{
         width:70px;
@@ -106,16 +120,16 @@ Button{
         margin:auto
     }
     .achievementCard{
-        
-        width: 100vw;
+        margin-bottom: auto;
+        width: 90vw;
         height: 22vw;
         font-size: 15px;
-        margin-top: 15px;
+        
         
     }
     .question_Card{
         width:90vw;
-        height: 87vw;
+        height: auto;
        
     }
   }

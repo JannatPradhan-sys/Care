@@ -6,24 +6,42 @@ import ChildReadiness from './ChildReadiness';
 import ParentReadiness from './ParentReadiness';
 
 export default class TabBar extends Component {
+    state={
+        val:1
+    }
+
+    hideButton=()=>{
+        this.setState(()=>({
+            val:0
+        }))
+    }
+    MouseOver=(event)=> {
+        event.target.style.background = 'red';
+      }
 
     render() {
-       
+        
         return (
             <div className='Questionnare-Container'>
                 <Router>
-                    <Switch>
-                        <Link to='/Child Readiness'>
-                            <Button variant="outline-primary" ><b>Child Readiness</b></Button>
-                        </Link>
-                    </Switch>
-                    <Switch>
-                        <Link to='/Parent Readiness'>
-                            <Button variant="outline-primary" ><b>Parent Readiness</b></Button>
-                        </Link>
-                    </Switch>
+                {this.state.val ? 
+                <>
+                <Switch>
+                    <Link to='/Child Readiness'>
+                        <Button variant="outline-primary" ><b>Child Readiness</b></Button>
+                    </Link>
+                </Switch>
+                <Switch>
+                    <Link to='/Parent Readiness'>
+                        <Button variant="outline-primary" ><b>Parent Readiness</b></Button>
+                    </Link>
+                </Switch>
+                </>:
+                <></>
+                
+                }
                     <Route path='/Child Readiness' exact>
-                        <ChildReadiness />
+                        <ChildReadiness hideReadinessButton={this.hideButton}/>
                     </Route>
                     <Route path='/Parent Readiness' exact>
                         <ParentReadiness />

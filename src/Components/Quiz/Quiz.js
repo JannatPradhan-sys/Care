@@ -12,9 +12,7 @@ class Quiz extends Component {
         score: 0,
         disabled: true
     }
-    constructor(props) {
-        super(props);
-    };
+    
 
     //Component that holds the current quiz
     loadQuiz = () => {
@@ -109,8 +107,8 @@ class Quiz extends Component {
         if (quizEnd) {
             return (
                 <div>
-                    <h5>Final score is {this.state.score} points</h5>
-                    <p>The correct Answers for the quiz are</p>
+                    <h5> {this.state.score} out of 7 is correct</h5>
+                    
                     <ul>
                         {QuizData.map((item, index) => (
                             <li className='options'
