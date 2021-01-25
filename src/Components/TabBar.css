@@ -24,7 +24,7 @@ Button{
     border: 2px solid #1167b1;
     color: #1167b1;
     border-radius: 0%;
-    margin: 2px 0px 10px 0px;
+    margin: 2px 0px 40px 0px;
 }
 
 .ChildReadiness-Card{
@@ -52,7 +52,6 @@ Button{
 }
 .Question_Parent{
     width: 71vw;
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; 
@@ -74,7 +73,7 @@ Button{
     background-color: #45b6fe;
     color: white;
     border-radius: 20px;
-   margin-right: 0px;
+   margin-bottom: 50px;
     height: 100px;
     width:500px
 
@@ -82,35 +81,41 @@ Button{
 .question_Card{
     width: 40vw;
     margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 7px #bac3c3
    
 
 }
 @media only screen and (max-width: 812px) {
+    .Questionnare-Container Button{
+        margin: 2px 0px 20px 0px;
+    }
     .Question_Parent{
         width: 100vw;
         height: 28vh;
     }
     .Question_ChildDiv{
-        height: 80px;
-        box-shadow: 0 0 20px #bac3c3;
+        height: 70px;
+        box-shadow: 0 0 10px #bac3c3;
         width: 130px;
         border-radius: 15px;
     }
     .progress_bar{
-        width:80px;
+        width:70px;
         height:100%;
         margin:auto
     }
     .achievementCard{
         
         width: 100vw;
-        height: 90px;
+        height: 22vw;
         font-size: 15px;
-        margin-top: 10px;
+        margin-top: 15px;
         
     }
     .question_Card{
-        width:100vw;
-        margin-top: 20px;
+        width:90vw;
+        height: 87vw;
+       
     }
   }

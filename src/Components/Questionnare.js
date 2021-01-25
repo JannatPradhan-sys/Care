@@ -22,7 +22,7 @@ export default class TabBar extends Component {
                             <Button variant="outline-primary" ><b>Parent Readiness</b></Button>
                         </Link>
                     </Switch>
-                    <Route path='/Child Readiness'>
+                    <Route path='/Child Readiness' exact>
                         <ChildReadiness />
                     </Route>
                     <Route path='/Parent Readiness' exact>
