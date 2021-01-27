@@ -1,5 +1,5 @@
 
-
+import './App.css'
 import TabBar from './Components/TabBar';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h6 style={{textAlign:'center'}}>Header NavBar</h6>
       <TabBar/>
-
+      
     </div>
   );
 }

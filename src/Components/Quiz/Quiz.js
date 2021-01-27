@@ -12,7 +12,7 @@ class Quiz extends Component {
         score: 0,
         disabled: true
     }
-    
+
 
     //Component that holds the current quiz
     loadQuiz = () => {
@@ -47,8 +47,8 @@ class Quiz extends Component {
     }
 
     //Handles Click event for the previous button
-    previousQuiz =()=>{
-        
+    previousQuiz = () => {
+
         this.setState({
             currentIndex: this.state.currentIndex - 1
         })
@@ -108,7 +108,7 @@ class Quiz extends Component {
             return (
                 <div>
                     <h5> {this.state.score} out of 7 is correct</h5>
-                    
+
                     <ul>
                         {QuizData.map((item, index) => (
                             <li className='options'

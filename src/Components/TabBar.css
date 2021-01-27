@@ -2,22 +2,28 @@
     margin: 0; padding:0; box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+.App{
+    width:60vw;
+    height: 42vw;
+    margin:80px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #bac3c3;
     
-
-.Tab-Container{
-    height:50px;
 }
 
 .Tab-Container Button{
     color: white;
     background-color: darkorange;
     font-family:Arial;
+   
     
 }
 Button{
     width: 50%;
     height: 100%;
+    margin:0px 0px 0px 0px;
     text-decoration:white;
+    
     
 }
 .Questionnare-Container Button{
@@ -69,36 +75,50 @@ Button{
     box-shadow: 0 0 20px #bac3c3;
     width: 150px;
     border-radius: 15px;
-    margin-left: auto;
-    
+    margin: auto;
 }
 .progress_bar{
-    width:105px;
-    height:100%;
-    margin:auto
+    width:60%;
+    height:90%;
+    margin:5% auto
 }
 .achievementCard{
     background-color: #45b6fe;
     color: white;
     border-radius: 20px;
-    margin-bottom: 50px;
+    margin-right: 400px;
     height: 100px;
-    width:500px;
-    margin: auto;
+    width:600px;
+   
 
 }
 .question_Card{
     width: 40vw;
     height: auto;
-    margin: auto;
+    margin: 80px auto;
     border-radius: 15px;
-    box-shadow: 0 0 7px #bac3c3
+    box-shadow: 0 0 4px #bac3c3
    
 
+}
+.HelpIcon{
+    box-shadow: 0px 0px 5px 0.1px;
+    border-radius:100px;
+    
+    margin:-5% 0% 0px 90%;
+    color:#55b6fe
 }
 @media only screen and (max-width: 812px) {
     *{
         font-size: 14px;
+    }
+    .App{
+        width:auto;
+        height: auto;
+        margin:auto;
+        border-radius: auto;
+        box-shadow: 0 0 0px #bac3c3;
+        
     }
     .Questionnare-Container Button{
         margin: 2px 0px 20px 0px;
@@ -120,7 +140,7 @@ Button{
         margin:auto
     }
     .achievementCard{
-        margin-bottom: auto;
+        margin:auto;
         width: 90vw;
         height: 22vw;
         font-size: 15px;
@@ -130,6 +150,15 @@ Button{
     .question_Card{
         width:90vw;
         height: auto;
+        margin: auto;
        
+    }
+    .HelpIcon{
+        box-shadow: 0px 0px 5px 0.1px;
+        border-radius:100px;
+        
+        float: left;
+        margin:30px 40px;
+        color:#55b6fe
     }
   }
