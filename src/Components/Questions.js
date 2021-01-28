@@ -99,10 +99,11 @@ export default class ChildReadiness extends Component {
                             </Card.Text>
                         </Card.Body>
                     </div>
+                    
                 </div>
-
-
                 <Example />
+
+                
 
             </div>
         )

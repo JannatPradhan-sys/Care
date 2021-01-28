@@ -7,7 +7,7 @@ export default class ParentReadiness extends Component {
     render() {
 
         return (
-            <div>
+            
 
                 <Card className='ChildReadiness-Card'>
                     <Card.Body>
@@ -31,7 +31,7 @@ export default class ParentReadiness extends Component {
                     </Card.Body>
 
                 </Card>
-            </div>
+         
         )
     }
 }
