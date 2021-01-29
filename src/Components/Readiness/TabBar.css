@@ -4,8 +4,8 @@
 }
 .App{
     width:50vw;
-    height: 890px;
-    margin:80px auto;
+    height: 850px;
+    margin:50px auto;
     border-radius: 20px;
     box-shadow: 0 0 7px #bac3c3;
     
@@ -50,7 +50,7 @@ Button{
 .QuestionnareHistory-Accordion{
     width:75%;
     margin: 20px auto;
-    box-shadow: 0px 0px 5px 0.01px;
+    box-shadow: 0px 0px 4px 0.1px;
 }
 .QuestionnareHistory-card{
     
@@ -64,16 +64,16 @@ Button{
     justify-content: space-around;
     flex-direction: column-reverse;
     flex-wrap: wrap; 
-    transition: all 0.2 linear;
+    transition: all 1.2 linear;
     margin-top: 2vw;
     margin-bottom: 2vw;
    
 			
 }
 .Progress_ParentDiv{
-    height: 105px;
+    height: 90px;
     box-shadow: 0 0 20px #bac3c3;
-    width: 150px;
+    width: 130px;
     border-radius: 15px;
     margin: auto;
 }
@@ -86,16 +86,16 @@ Button{
     background-color: #45b6fe;
     color: white;
     border-radius: 20px;
-    margin-right: 400px;
-    height: 100px;
-    width:70%;
+    margin-right: 320px;
+    height: 90px;
+    width:73%;
    
 
 }
 .question_Card{
     width: 30vw;
     height: auto;
-    margin: 80px auto;
+    margin: 70px auto;
     border-radius: 15px;
     box-shadow: 0 0 4px #bac3c3
    
@@ -130,22 +130,23 @@ Button{
         height: 28vh;
     }
     .Progress_ParentDiv{
-        height: 70px;
+        height: 86px;
         box-shadow: 0 0 10px #bac3c3;
-        width: 90vw;
+        width: 322px;
         border-radius: 15px;
         margin: auto;
     }
     .progress_bar{
-        width:70px;
-        height:100%;
-        margin:auto
+        width:66px;
+        height:66px;
+        margin:10px auto;
     }
     .achievementCard{
+        position: relative;
         margin:auto;
-        width: 90vw;
-        height: 22vw;
-        font-size: 15px;
+        width: 329px;
+        height: 70px;
+        text-align: left;
         
         
     }

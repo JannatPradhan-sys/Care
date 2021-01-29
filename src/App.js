@@ -1,14 +1,16 @@
 
 import './App.css'
-import TabBar from './Components/TabBar';
+import TabBar from './Components/Readiness/TabBar';
 
 function App() {
   return (
+    <>
+    {/*   Readiness section*/ }
     <div className="App">
-      <h6 style={{textAlign:'center'}}>Header NavBar</h6>
-      <TabBar/>
-      
+      <TabBar/>      
     </div>
+    {/*   Readiness section end*/ }
+    </>
   );
 }
 

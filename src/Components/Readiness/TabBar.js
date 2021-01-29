@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { Button} from 'react-bootstrap';
 import { BrowserRouter as Router,Route,Switch,Link } from "react-router-dom";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './TabBar.css';
 import Questionnare from './Questionnare';
 import QuestionnareHistory from './QuestionnareHistory';
